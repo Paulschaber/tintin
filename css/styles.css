@@ -82,7 +82,9 @@ a:hover{
   }
   .hej{
     background-image: url("../bilder/mainmenu.jpeg");
-    
+    grid-column: 1/-1;
+    grid-row: 1/3;
+
   }
 
   #rubrik1{
