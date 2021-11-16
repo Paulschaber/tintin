@@ -44,6 +44,10 @@ main{
   margin-top: 10%;
 }
 
+.shortcuts a:hover{
+  filter: opacity(70%);
+}
+
 .shortcuts img{
   width: 6vw;
 
@@ -60,7 +64,7 @@ a{
 
 a:hover{
   filter: brightness(50%);
-  filter: opacity(50%);
+
 }
 @media only screen and (max-width: 750px){
   body {
