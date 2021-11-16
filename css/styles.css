@@ -7,6 +7,13 @@ h1 {
   font-size: 9vw;
 }
 
+#rubrik1{
+  width: 8vw;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: none;
+}
+
 header {
   background-image: url("../bilder/mainmenu.jpeg");
   background-size: cover;
@@ -70,8 +77,19 @@ a:hover{
   body {
 
   }
-  main{
-
+  header #rubrik1{
+    background-image: url("../bilder/mainmenu.jpeg");
+  }
+  #rubrik1{
+    display: contents;
+  }
+  #rubrik1 img{
+    width: 8vw;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #rubrik2{
+    display: none;
   }
   .shortcuts a{
     margin-left: 7px;
