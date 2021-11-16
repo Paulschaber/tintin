@@ -77,11 +77,17 @@ a:hover{
   body {
 
   }
-  header #rubrik1{
-    background-image: url("../bilder/mainmenu.jpeg");
+  header {
+  background: none;
   }
+  .hej{
+    background-image: url("../bilder/mainmenu.jpeg");
+    
+  }
+
   #rubrik1{
     display: contents;
+    z-index: 22;
   }
   #rubrik1 img{
     width: 8vw;
